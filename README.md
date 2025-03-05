@@ -2,6 +2,9 @@
 
 This project uses Python with Pandas, Matplotlib, and SciPy to analyze and visualize sea level data, predicting future sea levels based on historical trends.
 
+
+![image](https://github.com/juandavidartal/sea-level-predictor/blob/main/sea_level_plot.png)
+
 ## Project Description
 
 The `sea_level_predictor.py` script reads sea level data from `epa-sea-level.csv`, generates a scatter plot of the data, and creates two lines of best fit:
@@ -9,7 +12,7 @@ The `sea_level_predictor.py` script reads sea level data from `epa-sea-level.csv
 1.  **Best Fit Line 1:** A linear regression line calculated using the entire dataset (1880-2050).
 2.  **Best Fit Line 2:** A linear regression line calculated using data from the year 2000 onwards (2000-2050).
 
-The script then saves the generated plot as `sea_level_plot.png`.
+
 
 ## Files
 
